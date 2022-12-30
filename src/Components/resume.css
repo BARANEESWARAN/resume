@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Resume-Extractor{
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+
+    background: linear-gradient(
+        #0f0c29,
+        #302b63,
+        #24243e);
+       min-height: 660px;
+
+}
+
+
+.resumecard{
+   box-sizing: border-box;
+}
+
+
+.Resume-Extractor .resumecardafter{
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    width: 650px;
+   height: 820px;
+    /* min-height: 55%;
+    max-height: 100%; */
+    position: relative;
+    left: 360px;
+/* background-color:#c8d8c4  ; */
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    border-radius: 10px;
+    
+
+}
+
+.Resume-Extractor .resumecardbefore {
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    width: 650px;
+    height: 360px;
+    /* min-height: 55%;
+    max-height: 100%; */
+    position: relative;
+    left: 350px;
+    top: 40px;
+/* background-color:#c8d8c4  ; */
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    border-radius: 10px;
+    
+
+}
+
+.Resume-Extractor .ant-layout-header {
+    height: 64px;
+    padding: 0 50px;
+    color: lightslategrey;
+    line-height: 64px;
+    background: none;
+}
+
+.Resume-Extractor .ant-upload.ant-upload-drag {
+    position: relative;
+    width: 400px;
+    height: 100px !important;
+    text-align: center;
+    background: #fafafa;
+    border: 2px dashed #1890ff;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+    position: relative;
+    left: 50px;
+}
+
+.Resume-Extractor .ant-upload.ant-upload-drag:not(.ant-upload-disabled):hover {
+    border-color: brown;
+}
+
+.Resume-Extractor .ant-upload p {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 7px;
+    color: gray;
+}
+
+.Resume-Extractor .ant-btn-primary {
+    color: #fff;
+    border-color: red;
+    background: red;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    position: relative;
+    width: 400px;
+    border-radius: 10px;
+
+    font-weight: 700;
+}
+
+.Resume-Extractor .ant-upload-list-text .ant-upload-span, .ant-upload-list-picture .ant-upload-span {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    position: relative;
+    left: 160px;
+}
+
+.Resume-Extractor .ant-input {
+    box-sizing: border-box;
+    margin: 0;
+
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 8px !important;
+    transition: all 0.3s;
+}
+
+.Resume-Extractor .ant-row {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+    height: 40px;
+}
+
+.Resume-Extractor .ant-form-item-label > label::after {
+    display: block;
+}
+
+.Resume-Extractor .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none;   
+}
+
+.Resume-Extractor .ant-form-item-label > label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    height: 32px;
+    color: #000;
+ 
+    font-weight: 700;
+    font-size: 14px;
+}
+.Resume-Extractor button.ant-btn.ant-btn-default.Upload-Button {
+    width: 395px;
+    height: 106px;
+    border: 2px dashed #1890ff;
+}
+
+.Resume-Extractor button.ant-btn.ant-btn-default.Upload-Button:hover {
+    border-color: brown;
+}
+.sv svg {
+    font-size: 40px;
+    position: relative !important;
+    bottom: 12px !important;
+
+}
+span.ant-upload.ant-upload-btn {
+    height: 106 px !important;
+}
+p{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: gray
+}
+.spinsvg{
+
+    font-size: 30px;
+}
+.spinicon .anticon svg {
+    display: inline-block !important;
+    color: white !important;
+    font-size: 35px !important;
+}
+button.ant-btn.ant-btn-default.btn {
+    color: #fff;
+    border-color: red;
+    background: red;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    position: relative;
+    width: 400px;
+    border-radius: 10px;
+  
+    font-weight: 700;
+    
+}
+
+
